@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/Iconslogo/rsz_logo_1-150x150.png" />
+    <link href="css/blog.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Baloo+Tamma|Kelly+Slab|Neucha|Righteous&display=swap"
+        rel="stylesheet">
+    <style>
+        .toggle {
+            height: 0px;
+            background-color: #2e2e2e;
+        }
+
+        #open {
+            color: aliceblue;
+        }
+
+        @media only screen and (max-width: 800px) {
+            .toggle {
+                height: 50px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="toggle">
+        <span style="font-size:40px;cursor:pointer;margin-left: 10px;" onclick="openNav()" id="open">&#9776; </span>
+    </div>
+    <div id="myNav" class="navbar" style="background-color: rgba(0,0,0,0.9);">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="close">&times;</a>
+        <div class="navbar-content">
+            <a href="home.html">Home</a>
+            <a href="resume.html">CV</a>
+            <a href="blog.html" id="active">Blog</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="blog">
+        <h1 style="color:darkviolet; position: relative; left: 20%;"><span
+                style="color: darkorange; text-decoration: underline">B</span>log</h1>
+        <div class="blog-main">
+            <div class="main-part" id="main">
+                <div class="cont-img" id="coimg">
+                </div>
+                <div class="cont-text">
+                    <div class="blog-header">
+                        <span class="social-icons">
+
+                            <a href="https://www.instagram.com/marchohutahaean?igsh=MXVkYmxhYmpyZ3l1NQ%3D%3D&utm_source=qr"
+                                target="_blank"><img src="images/Iconslogo/instagram.png" class="fa-facebook"></a>
+
+                            <a href="https://www.linkedin.com/in/marcho-malona-248746258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                                target="_blank"><img src="images/Iconslogo/linkedin-32.png" class="fa-linkedin"></a>
+
+                        </span>
+                        Game & It's impact
+                        <hr style="clear: both; height: 3px; background-color: #101010">
+                    </div>
+                    <p><b><span class="h2">Introduction</span></b><br>Games are among the applications popular with the
+                        public, as supported by research conducted by MoboMarket. Many games are created merely to
+                        entertain students, which partly explains why high school students often lack interest in
+                        studying mathematics. Two main factors contribute to this lack of interest: the first is
+                        internal, where students have a low curiosity or enjoyment in learning math, and the second is
+                        external, where they feel bored and uninterested in doing calculations<span id="dots"
+                            style="font-weight: bold;">.</span><span id="more"> This study aims to develop an
+                            interactive mathematics quiz game application based on WebGL and created using Unity 2D, as
+                            a solution to help shift students' perceptions that mathematics is complicated and
+                            difficult. The application includes various features such as sound effects, back, open,
+                            info, quit, and answer buttons. By leveraging Unity 2D technology, the game is built for
+                            WebGL, allowing it to run directly in a web browser.
+                            <br><b><span class="h2">THEORETICAL BASIS</span></b><br>
+                            Definition of GameA game, derived from the English word "game," refers to an activity of
+                            play that simulates real-life situations but remains fictional. A game provides an
+                            environment (or atmosphere) that facilitates learning, enhancing students' skills.(Sandy,
+                            2020) Games are usually played for entertainment while simultaneously serving as educational
+                            tools.MathematicsMathematics is a subject introduced at the elementary school level and
+                            encountered in daily life.(Kaurie, Purwanto and Minarni, 2020) Therefore, the importance of
+                            mathematics for students, particularly those in high school, lies in helping them understand
+                            and solve problems. Mathematics is a subject that enhances intelligence by utilizing logic
+                            for calculations, making logic the foundation for mathematics development.WebGLWebGL is a
+                            JavaScript-based wrapper for OpenGL and is one of the game-building tools used in Unity for
+                            web browser-based applications. WebGL is commonly used to design 3D games and web-based
+                            websites.(Azis Abdul dkk., 2021)Unity HubUnity Hub is an application that facilitates the
+                            discovery, downloading, and management of Unity projects and installations.(Ramadhani,
+                            Sundari and Khairunnisa, 2024) It also provides Unity templates, simplifying the process for
+                            developers to download, install, and manage various versions of the Unity editor in one
+                            place.Visual Studio CodeVisual Studio Code is an open-source editor provided by Unity for
+                            coding and editing. Being open-source means it can be used free of charge. This application
+                            supports various programming languages, including JavaScript, PHP, Python, and
+                            others.(Sandfreni, Ulum and Azizah, 2021)Unity 2DUnity 2D is a tool used to create 2D
+                            graphics in video games. It enables game development across various platforms, including
+                            iOS, Android, Windows, and consoles such as PlayStation, Xbox, iPad, and iPhone. Unity 2D
+                            also supports browser-based games designed with the Unity web player plugin, which works on
+                            Mac and Windows but not Linux. Unity supports the creationof both 2D and 3D games, offering
+                            a diverse range of object graphics, from simple 2D designs to complex 3D models. (Baskoro
+                            and Ariadi, 2023)C# Programming LanguageC# (pronounced C-sharp) is a programming language
+                            used to create applications or games. With C#, programmers can develop and design web
+                            applications or games. It is commonly used with Visual Studio to support programmers in
+                            their work. C# is designed for the Common Language Infrastructure (CLI), enabling the
+                            runtime environment to operate across platforms or devices, such as computers with different
+                            architectures, without needing to rewrite the code. C# is a programming language developed
+                            by Microsoft that operates on the .NET Framework.(Syahnita, 2021)UML(Sinaga, 2019)The
+                            Unified Modeling Language (UML) issued by the Object Management Group (OMG), is a graphic
+                            language and has been widely accepted as a standard method for modeling object oriented
+                            software systems. This can also be applied to modeling business process and system
+                            architecture and hardware design. (Nasyiah, 2022) For the system design required in the
+                            development of this math quiz game, the UML diagrams used include Sequence Diagram, Use
+                            Case, and Activity
+                            Diagram. Below are their explanations:Sequence DiagramA sequence diagram illustrates how the
+                            system responds to user activities. (Rizal Munadi et al., 2023) It also displays messages or
+                            commands given along with their execution times.Use Case DiagramA use case diagram isa
+                            technique for capturing the functionality of a system. A use case de-scribes the typical
+                            interactions between the system's users and the system itself by providing a narrative of
+                            how the system is used. The features within the system can be utilized to help cate-gorize
+                            the system, which UML uses to illustrate how actors interact with the system (Maidiana,
+                            2021).Activity DiagramAn activity diagram is one type of diagram in UML that can model the
+                            various processes occur-ring within a system (Menora et al., 2023).
+                            <br><b><span class="h2">METODE</span></b><br>
+                            Data Collection MethodsAt this stage, the methods used are questionnaires and surveys. To
+                            collect data, the author pro-vides a series of questions to students. The questionnaire
+                            questions given by the author are as follows:1.What causes students to feel bored while
+                            learning mathematics?2.What habits do students adopt to overcome boredom during
+                            learning?3.What kind of gaming experience do students have at school?In the final stage, the
+                            author will conduct a survey using these three questions to obtain survey results that will
+                            facilitate the development of a mathematics quiz game, making it easier to cre-ate.Software
+                            Development MethodologyThe system or software development in this research aims to outline
+                            the steps involved in the game development process. For the development of this quiz game,
+                            the methodology used is the Game Development Life Cycle (GDLC). GDLC is an iterative
+                            approach to game development that consists of six phases: initialization/concept creation,
+                            pre-production,production, testing, beta, and release. However, in the development of this
+                            mathematics quiz game application, only a few phases of the GDLC methodology are applied, as
+                            described below:1.Initialization/Concept CreationThis is the initial step in developing the
+                            mathematics quiz game, which involves creating the concept of the quiz game to be developed.
+                            The quiz will take the form of essay questions, and the developer, Marcho Malona Hutahaean,
+                            will identify the elements to be added to the game.2.ProductionIn this phase, new assets are
+                            created for the game development. These assets include:oImage folder: To enhance the game's
+                            visual appeal.oScript folder: To ensure the game is functional and playable.oSound folder:
+                            To add audio features that make the game more engaging.oAnimation folder: To include minor
+                            animations, such as text animations, in the quiz game.These organized resources facilitate
+                            the production process and simplify the de-velopment of the mathematics quiz
+                            game.3.TestingIn this stage, operational testing is conducted to determine whether the game
+                            is ready for use. Playtesting is carried out to assess the functionality of game features
+                            and ensure that all components work as intended. This phase is performed by the
+                            developer.4.Beta TestingThis development phase involves external testing by third parties,
+                            such as high school students or game testers enlisted by the developer. They are tasked with
+                            identifying bugs or issues related to the features within the
+                            application.5.ReleaseVersionThis is the final phase of development, where the game is
+                            prepared for release and made available to high school students as a WebGL-based
+                            application.
+
+                            <br><b><span class="h2">DISCUSSION</span></b><br>
+                            In developing this math quiz game, the GDLC method was used to make the game development
+                            process more structured. The game was designed using the UML method to facilitate the
+                            developers in designing the structure of the quiz game, which includes multiple playable
+                            levels to increase high school students' interest in learning math.<br>
+                            System testing will be conducted using the alpha testing method to identify any bugs or
+                            non-functional features within the math quiz game when it is being played.
+                            <br><b><span class="h2">Conclusion</span></b><br>
+                            The following are the conclusions of this research. Developing a math quiz game application
+                            to increase high school students' interest in calculation and enhance their intelligence,
+                            Developing an interactive WebGL-based math quiz game application that allows the game to be
+                            played on a web browser, Designing a UML system to streamline the development process of the
+                            math quiz game, Conducting alpha testing on the math quiz game to identify and locate
+                            errors, Developing the math quiz game using Unity 2D, making the development process easier,
+                            Developing the math quiz game application as an alternative learning medium that can run in
+                            a web browser.
+
+                        </span></p>
+                    <button onclick="myFunction()" id="myBtn" class="btn-more">Read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Copyright Information-->
+    <div class="copyright">
+        <p>&copy; 2024 | Marcho Malona Hutahaean</a></p>
+    </div>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+            var main = document.getElementById("main");
+            var coimg = document.getElementById("coimg");
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+                main.style.display = "flex";
+                coimg.style.width = "350px";
+
+
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+                main.style.display = "block";
+                coimg.style.width = "100%";
+                coimg.style.transition = "all 1s";
+            }
+        }
+    </script>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
